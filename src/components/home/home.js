@@ -56,12 +56,14 @@ const IplDashboardApp = () => {
     switch (responseObject.responseStatus) {
       case responseStatusList.inProgress:
         return (
-          <div className="row col-12 d-flex align-items-center justify-content-center mt-5">
-            <div
-              className="spinner-border text-light ipl-teams-card-spinner"
-              role="status"
-            >
-              <span className="sr-only">Loading...</span>
+          <div className="row mt-5">
+            <div className="col-12 d-flex align-items-center justify-content-center">
+              <div
+                className="spinner-border text-light ipl-teams-card-spinner"
+                role="status"
+              >
+                <span className="sr-only">Loading...</span>
+              </div>
             </div>
           </div>
         );

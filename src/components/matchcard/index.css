@@ -1,0 +1,57 @@
+.match-card {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 130px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-card-logo {
+  width: 120px;
+  margin-top: 11px;
+  margin-bottom: 16px;
+}
+
+.match-card-team-name {
+  font-family: "Bree Serif";
+  font-weight: 600;
+  font-size: 31px;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.match-card-result {
+  font-family: "Bree Serif";
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.match-card-status {
+  font-family: "Bree Serif";
+  font-weight: 600;
+  font-size: 25px;
+  color: #18ed66;
+  margin-top: 22px;
+  margin-bottom: 11px;
+  text-align: center;
+}
+
+.lost-color {
+  color: #e31a1a;
+}
+
+.won-color {
+  color: #18ed66;
+}
